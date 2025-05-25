@@ -15,7 +15,7 @@ body {
     color: var(--bark-brown);
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,13 +25,12 @@ body {
     min-height: 5dvh;
 }
 
-.image-container {
-    max-height: 100%;
+div {
     display: flex;
     justify-content: center;
 }
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -39,22 +38,17 @@ body {
     color: white;
 }
 
-.post-article {
-    display: flex;
-    flex-direction: column;
-}
-
-.title {
+h1 {
     align-self: center;
     padding: 0.25rem;
     margin: 0.25rem;
 }
 
-.paragraph {
+p {
     padding: 0.5rem;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
